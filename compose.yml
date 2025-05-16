@@ -38,4 +38,4 @@ services:
             - 1089:80
 
 volumes:
-    db:
+    db: {}
