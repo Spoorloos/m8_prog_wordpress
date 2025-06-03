@@ -2,8 +2,7 @@
 
 function italian_recipes_enqueue_styles()
 {
-    $stylesheet = get_stylesheet_directory_uri() . '/generated/style.css';
-    wp_enqueue_style('italian-recipes-generated', $stylesheet);
+    wp_enqueue_style('output', get_template_directory_uri() . '/generated/style.css');
 }
 
 add_action('wp_enqueue_scripts', 'italian_recipes_enqueue_styles');
