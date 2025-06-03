@@ -1,9 +1,10 @@
 <?php
 
-function m8prog_enqueue_styles()
+function italian_recipes_enqueue_styles()
 {
-    wp_enqueue_style('m8prog-style', get_stylesheet_uri());
+    $stylesheet_dir = get_stylesheet_directory_uri();
+    wp_enqueue_style('italian-recipes-generated', $stylesheet_dir . '/generated/style.css');
 }
 
-add_action('wp_enqueue_scripts', 'm8prog_enqueue_styles');
+add_action('wp_enqueue_scripts', 'italian_recipes_enqueue_styles');
 add_theme_support('post-thumbnails');

@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"tailwindcss": "^4.1.8",
+		"@tailwindcss/cli": "^4.1.8"
+	},
+	"scripts": {
+		"dev": "tailwindcss -i ./themes/italian-recipes/style.css -o ./themes/italian-recipes/generated/style.css --watch"
+	}
+}
