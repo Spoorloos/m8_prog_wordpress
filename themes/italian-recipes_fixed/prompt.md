@@ -1,1 +1,0 @@
-Generate a complete css and php wordpress theme for wordpress:6.8-php8.2 for my italian recipes website. The website has a home page, about page and contact page. The home page will show popular recipes and the header will contain a search bar.
