@@ -14,3 +14,17 @@
  */
 
 @import "tailwindcss";
+
+@layer components {
+    .header-nav {
+        @apply flex gap-2 items-center;
+    }
+
+    .header-nav .menu-item {
+        @apply p-1 hover:bg-gray-600;
+
+        &.current_page_item {
+            @apply bg-gray-600;
+        }
+    }
+}
